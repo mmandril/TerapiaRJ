@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table-filter match-name="area_atuacao"
+		match-catalog="profissionais">
+	</table-filter>
+	<table-filter match-name="avaliacao"
+		match-catalog="profissionais">
+	</table-filter>
+	<table-filter match-name="cliente" match-catalog="profissionais"></table-filter>
+	<table-filter match-name="clinica" match-catalog="profissionais"></table-filter>
+	<table-filter match-name="foto" match-catalog="profissionais"></table-filter>
+	<table-filter match-name="historico_pagamento"
+		match-catalog="profissionais">
+	</table-filter>
+	<table-filter match-name="perfil" match-catalog="profissionais"></table-filter>
+	<table-filter match-name="plano" match-catalog="profissionais"></table-filter>
+	<table-filter match-name="profissional"
+		match-catalog="profissionais">
+	</table-filter>
+	<table-filter match-name="tipo_avaliacao"
+		match-catalog="profissionais">
+	</table-filter>
+	<table-filter match-name="tipo_profissional"
+		match-catalog="profissionais">
+	</table-filter>
+	<table-filter match-name="usuario" match-catalog="profissionais"></table-filter>
+	<table-filter match-name="visualizacao"
+		match-catalog="profissionais">
+	</table-filter>
+</hibernate-reverse-engineering>

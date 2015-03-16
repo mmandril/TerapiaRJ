@@ -1,0 +1,217 @@
+body{
+	font-family: Century Gothic;
+	padding-bottom: 70px;
+}
+
+header{
+
+	background-image: url("../imgs/topo.png");
+	background-repeat: repeat-y;
+	background-color: #FFF;
+	min-height: 200px;
+}
+
+.navbar-brand{
+	left: 560px;
+    position: relative;
+    top: 60px;
+    font-size: 90px;
+    color: #5b995b;
+}
+
+header a:hover{
+	color: #5b995b;
+}
+
+.container{
+	width: 97%;
+	margin-left: 25px;
+}
+
+footer .navbar-default{
+	background-color: #C2F0C2;
+	background-image: none;
+}
+
+.navbar-collapse.collapse{
+	background-color: #ADEBAD;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    margin-left: 3%;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 15px;
+    position: relative;
+}
+
+.navbar-nav > li > a{
+
+	color: #5B5B5B;
+}
+
+
+h3, .h3{
+	color: #5B5B5B;
+	border-bottom: 2px solid #ADEBAD;
+}
+
+.row {
+	margin-bottom: 40px;
+}
+
+.thumbnail{
+	border:none;
+	border: 1px solid #fff;
+	
+}
+
+a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
+	border: 1px solid #ADEBAD;
+} 
+
+.nav > li > a:hover, .nav > li > a:focus {
+		background-color: #C2F0C2;
+}
+
+.caption{
+	 background-color: #adebad;
+    text-align: center;
+    text-decoration: none;
+}
+
+.col-md-2 a.thumbnail:hover{
+	text-decoration: none;
+}
+
+.col-md-1 a.thumbnail:hover{
+	text-decoration: none;
+}
+
+.footer h5{
+	margin-top: 20px;
+}
+
+.col-md-1{
+
+	margin-left: 3%;
+}
+
+.col-md-9{
+	width: 50%;
+}
+
+.text-center{
+
+	text-align: center;
+}
+
+footer .footer-content{
+	min-height: 45px;
+}
+
+footer h5{
+	text-align: center;
+	padding-top: 5px;
+}
+
+h2, .h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.col-md-5 {
+    width: 15%;
+}
+
+.navbar{
+	margin-bottom: 0;
+}
+
+
+/*  Início - Estilo do TOPO FIXO  */
+
+#nav.affix {
+   position: fixed;
+   top: 0;
+   z-index:10;
+   -webkit-transition: all .6s ease-in-out;
+}
+
+#nav {
+ width: 100%;
+  background-color: #adebad;
+ box-shadow: 0 0 1px #000 inset;
+ border:0;
+ border-radius:0;
+}
+
+/*  Final - Estilo do TOPO FIXO  */
+
+
+
+
+
+.wrapper {
+  margin: 50px auto;
+  width: 280px;
+  height: 370px;
+  background: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+  -moz-box-shadow:    0px 0px 8px rgba(0,0,0,0.3);
+  box-shadow:         0px 0px 8px rgba(0,0,0,0.3);
+  position: relative;
+  z-index: 90;
+}
+
+.ribbon-wrapper-green {
+  width: 85px;
+  height: 88px;
+  overflow: hidden;
+  position: absolute;
+  top: -5px;
+  right: 11px;
+}
+
+.ribbon-green {
+  font: bold 15px Sans-Serif;
+  color: #333;
+  text-align: center;
+  text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform:    rotate(45deg);
+  -ms-transform:     rotate(45deg);
+  -o-transform:      rotate(45deg);
+  position: relative;
+  padding: 7px 0;
+  left: -5px;
+  top: 15px;
+  width: 120px;
+  background-color: #BFDC7A;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#BFDC7A), to(#8EBF45)); 
+  background-image: -webkit-linear-gradient(top, #BFDC7A, #8EBF45); 
+  background-image:    -moz-linear-gradient(top, #BFDC7A, #8EBF45); 
+  background-image:     -ms-linear-gradient(top, #BFDC7A, #8EBF45); 
+  background-image:      -o-linear-gradient(top, #BFDC7A, #8EBF45); 
+  color: #6a6340;
+  -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+  -moz-box-shadow:    0px 0px 3px rgba(0,0,0,0.3);
+  box-shadow:         0px 0px 3px rgba(0,0,0,0.3);
+}
+
+.ribbon-green:before, .ribbon-green:after {
+  content: "";
+  border-top:   3px solid #6e8900;   
+  border-left:  3px solid transparent;
+  border-right: 3px solid transparent;
+  position:absolute;
+  bottom: -3px;
+}
+
+.ribbon-green:before {
+  left: 0;
+}
+.ribbon-green:after {
+  right: 0;
+}
